@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Upload Your Files</h1><br>
+      <form class = "" action="{{ url_for('index') }}" method="POST" enctype="multipart/form-data">
+          {{ form.hidden_tag() }}
+          {{ form.file( class="btn btn-light") }}
+          <br>
+          <br>
+          {{ form.submit() }}
+      </form>
+  </div>
+</div>
+
+{% endblock %}
