@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "274552905296",
+    "firebase_url": "https://arapp-ec262.firebaseio.com",
+    "project_id": "arapp-ec262",
+    "storage_bucket": "arapp-ec262.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:274552905296:android:754f5e8c0afa7c98e0fb55",
+        "android_client_info": {
+          "package_name": "org.terna.arappjuly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "274552905296-js9cg5q27081tas4arqk4o28dutof62a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB89zzy_DHqcoMSgRkutQNFkYxyYq3fR30"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "274552905296-js9cg5q27081tas4arqk4o28dutof62a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

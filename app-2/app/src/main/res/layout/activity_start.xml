@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity">
+    <ImageView
+        android:id="@+id/splashImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_baseline_location_on_24"
+        app:layout_constraintTop_creator="1"
+        app:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="280dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="315dp"
+        />
+    <Button
+        android:id="@+id/splashScreenButton"
+        android:layout_width="wrap_content"
+        android:background="@drawable/get_started_background"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textColor="#ffff"
+        android:text="  Get Started  "
+        android:textSize="20sp"
+        android:padding="12dp"
+        app:layout_constraintRight_creator="1"
+        app:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginBottom="85dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
