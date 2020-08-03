@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirebaseTestActivity"
+    android:id="@+id/RootRelativeLayout">
+
+    <fragment
+        android:id="@+id/arTestFragment"
+        android:name="com.google.ar.sceneform.ux.ArFragment"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+
+        />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="187dp"
+        android:layout_alignParentStart="true"
+
+        android:layout_marginStart="0dp"
+
+        android:text="TextTestView"
+        android:layout_below="@+id/arTestFragment"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:textColor="#ffff"
+        android:background="@drawable/get_started_background"
+        android:text="create"
+        android:id="@+id/createTestButton"
+        android:layout_below="@+id/arTestFragment"
+        android:layout_marginStart="255dp"
+
+        />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/startButtonTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:useCompatPadding="true"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/ic_baseline_add_24"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginStart="340dp"
+        app:fabSize="normal"
+
+        />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/stopButtonTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:useCompatPadding="true"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/ic_outline_close_24"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginStart="340dp"
+        app:fabSize="normal"
+        android:visibility="gone"
+        />
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PathActivity">
+    <TextView
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:textColor="#ffff"
+        android:layout_height="wrap_content"
+        android:background="#00CCFF"
+        android:textSize="38sp"
+
+        android:layout_marginBottom="10dp"
+        android:id="@+id/pathTitle"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:id="@+id/pathImage"
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:text="start ar"
+        android:textColor="#ffff"
+        android:background="@drawable/get_started_background"
+        android:id="@+id/startPathAr"
+
+        android:layout_marginStart="255dp"
+        android:layout_centerInParent="true"
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:text="view image"
+        android:textColor="#ffff"
+        android:background="@drawable/get_started_background"
+        android:id="@+id/viewPathImage"
+        android:layout_below="@+id/startPathAr"
+        android:layout_marginStart="255dp"
+        android:layout_centerHorizontal="true"
+
+        />
+
+</RelativeLayout>

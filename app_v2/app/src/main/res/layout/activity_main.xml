@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:textColor="#ffff"
+        android:layout_height="wrap_content"
+        android:background="#00CCFF"
+        android:textSize="38sp"
+        android:text="Venues"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/venue_title"
+        />
+    <ListView
+        android:paddingTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:id="@+id/list"
+        android:divider="#ECECEC"
+        android:dividerHeight="1dp"
+        android:layout_marginStart="10dp"
+        android:layout_below="@+id/venue_title"
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:text="Scan QR"
+        android:textColor="#ffff"
+        android:background="@drawable/get_started_background"
+        android:id="@+id/scanqrButton"
+        android:layout_below="@+id/list"
+        android:layout_marginStart="55dp"
+        android:layout_centerInParent="true"
+
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:text="create"
+        android:textColor="#ffff"
+        android:visibility="gone"
+        android:background="@drawable/get_started_background"
+        android:id="@+id/CreatePathButton"
+        android:layout_below="@+id/list"
+        android:layout_marginStart="255dp"
+
+        />
+
+</RelativeLayout>
